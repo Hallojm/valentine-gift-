@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Valentine’s Gift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Click the gift to open your surprise!</h2>
+
+    <div class="scene">
+        <div class="gift-box" onclick="openGift()">
+            <div class="lid"></div>
+            <div class="box">
+                <div class="ribbon"></div>
+            </div>
+            <div class="letter" id="letter">
+                <h2>My Love,</h2>
+                <p>
+                    From the moment I met you, I knew my world had changed. Not in some dramatic, fairy-tale way, 
+                    but in a way that made life feel lighter, more real. You are my balance, my reason, my favorite person.  
+                    No words could truly capture how much I appreciate you.  
+                </p>
+                <p style="font-style: italic;">Happy Valentine’s Day. Forever yours.</p>
+            </div>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="isa-lang.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
